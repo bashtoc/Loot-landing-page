@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./public/favicon.ico" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <title>Loot</title>
+  </head>
+  <body class="font-Inter">
+    <header
+      class="flex justify-end h-32 lg:justify-between bg-customRed text-white lg:h-[221px] items-center px-14 lg:px-[186px]"
+    >
+      <span class="lg:flex gap-2 hidden items-center text-3xl font-bold"
+        ><img src="./public/image 422.png" alt="Loot logo" />
+        <p>Loot</p></span
+      >
+      <button id="menu-icon">
+        <svg
+          width="9"
+          height="34"
+          viewBox="0 0 9 34"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          class="lg:hidden"
+        >
+          <path
+            d="M0.417969 16.9987C0.417969 18.1038 0.848177 19.1636 1.61395 19.945C2.37972 20.7264 3.41833 21.1654 4.5013 21.1654C5.58427 21.1654 6.62288 20.7264 7.38865 19.945C8.15443 19.1636 8.58463 18.1038 8.58463 16.9987C8.58463 15.8936 8.15443 14.8338 7.38865 14.0524C6.62288 13.271 5.58427 12.832 4.5013 12.832C3.41833 12.832 2.37972 13.271 1.61395 14.0524C0.848177 14.8338 0.417969 15.8936 0.417969 16.9987ZM0.417969 4.4987C0.417969 5.60377 0.848177 6.66357 1.61395 7.44498C2.37972 8.22638 3.41833 8.66536 4.5013 8.66536C5.58427 8.66536 6.62288 8.22638 7.38865 7.44498C8.15443 6.66357 8.58463 5.60377 8.58463 4.4987C8.58463 3.39363 8.15443 2.33382 7.38865 1.55242C6.62288 0.771018 5.58427 0.332031 4.5013 0.332031C3.41833 0.332031 2.37972 0.771018 1.61395 1.55242C0.848177 2.33382 0.417969 3.39363 0.417969 4.4987ZM0.417969 29.4987C0.417969 30.6038 0.848177 31.6636 1.61395 32.445C2.37972 33.2264 3.41833 33.6654 4.5013 33.6654C5.58427 33.6654 6.62288 33.2264 7.38865 32.445C8.15443 31.6636 8.58463 30.6038 8.58463 29.4987C8.58463 28.3936 8.15443 27.3338 7.38865 26.5524C6.62288 25.771 5.58427 25.332 4.5013 25.332C3.41833 25.332 2.37972 25.771 1.61395 26.5524C0.848177 27.3338 0.417969 28.3936 0.417969 29.4987Z"
+            fill="white"
+          />
+        </svg>
+      </button>
+      <nav
+        id="nav"
+        class="flex items-center justify-center lg:h-auto bg-customRed py-6 px-14 lg:gap-6 w-full left-0 fixed h-screen text-xl gap-20 transition-transform top-0 lg:w-auto lg:static lg:translate-y-0 lg:py-0 -translate-y-full lg:text-lg flex-col lg:flex-row z-50 duration-500"
+      >
+        <button id="close" class="text-4xl right-12 top-12 fixed lg:hidden">
+          X
+        </button>
+        <a href="#about-us" class="px-3">About Us</a>
+        <a href="#contact-us" class="px-3">Contact Us</a>
+        <a href="./privacy-policy.html" class="px-3">Policy</a>
+      </nav>
+    </header>
+    <main>
+      <!-- Hero Section  -->
+      <section
+        class="text-white bg-customRed text-center px-12 lg:px-[175px] pb-[88px] lg:pb-[345px] flex flex-col gap-9 lg:gap-[118px] pt-2 lg:pt-[86px]"
+      >
+        <h1 class="text-[32px] lg:text-[80px] font-black">
+          Declutter now, sell or buy anything with loots app.
+        </h1>
+        <p class="lg:text-[32px]">
+          Over 1 million items have been decluttered on loot, download app now
+          to join us as we provide excellent platform for every buyer-seller.
+        </p>
+        <span class="flex gap-3 justify-center items-center">
+          <a class="w-[390px]"
+            ><img
+              src="public/play-store.png"
+              alt="link to Loot app on play store"
+            />
+          </a>
+          <a class="w-[390px]"
+            ><img
+              src="public/app-store.png"
+              alt="link to Loot app on app store"
+          /></a>
+        </span>
+      </section>
+      <section class="pt-[35px] lg:py-[101px]">
+        <h3 class="text-[22px] lg:text-[50px] text-center mb-9 font-Righteous">
+          What we have for you.
+        </h3>
+        <div
+          class="flex flex-col lg:flex-row gap-8 px-[22px] lg:px-[214px] pb-12 lg:pb-40"
+        >
+          <span
+            class="rounded-[20px] shadow-lg pb-9 lg:pb-14 px-9 pt-3 lg:pt-6 flex flex-col gap-3 lg:gap-5"
+          >
+            <img
+              src="./public/instant-widthdrawal.png"
+              alt=""
+              class="size-12 lg:size-[52px]"
+            />
+            <h5 class="text-lg md:text-2xl font-Righteous">Instant sale</h5>
+            <p class="text-sm text-[#626262]">
+              List your products on our app and watch them fly off the shelves
+              in no time. Join our platform today and unlock the power of
+              immediate sales of items.
+            </p>
+          </span>
+          <span
+            class="rounded-[20px] shadow-lg pb-9 lg:pb-14 px-9 pt-3 lg:pt-6 flex flex-col gap-5"
+          >
+            <img src="./public/cheap-items.png" alt="" class="size-[52px]" />
+            <h5 class="text-lg md:text-2xl font-Righteous">Buy cheap items</h5>
+            <p class="text-sm text-[#626262]">
+              Discover unbeatable savings on discounted and budget-friendly
+              items, all available on our app. Shop smartly and enjoy incredible
+              deals on a wide range of products.
+            </p>
+          </span>
+          <span
+            class="rounded-[20px] shadow-lg pb-9 lg:pb-14 px-9 pt-3 lg:pt-6 flex flex-col gap-5"
+          >
+            <img
+              src="./public/instant_widthdrawal.png"
+              alt=""
+              class="size-[52px]"
+            />
+            <h5 class="text-lg md:text-2xl font-Righteous">
+              Instant withdrawal
+            </h5>
+            <p class="text-sm text-[#626262]">
+              Experience lightning-fast withdrawals with our app, ensuring you
+              receive your funds promptly whenever you need them
+            </p>
+          </span>
+        </div>
+        <div
+          class="bg-customRed pt-6 pb-[46px] lg:pt-0 lg:pb-72 bg-[url('public/mobile-bg.svg')] lg:bg-[url('public/bg.svg')]"
+        >
+          <div
+            class="relative lg:before:w-full lg:before:h-1/2 lg:before:top-0 lg:before:left-0 lg:before:absolute lg:before:block lg:before:bg-white"
+          >
+            <h3
+              class="text-[22px] lg:text-[50px] lg:px-44 text-center lg:text-left text-white lg:text-black mb-11 relative font-Righteous"
+            >
+              Relocating?
+            </h3>
+            <div class="flex lg:px-[135px] flex-col lg:flex-row relative">
+              <img
+                src="public/relocating.jpg"
+                alt="A lady holding a bouquet and a man holding a box"
+                class="lg:rounded-r-xl flex-1 object-cover lg:rounded-[20px]"
+              />
+              <span
+                class="bg-white pt-9 pb-[42px] lg:py-5 text-sm lg:text-2xl space-y-4 px-[30px] flex-1 lg:rounded-[20px] lg:right-1"
+              >
+                <h5 class="font-Righteous lg:text-2xl">Sell used items</h5>
+                <p>
+                  Selling your used items has never been easier! With loot app,
+                  your number one declutter app, you can quickly connect with
+                  buyers and declutter your space hassle-free.
+                </p>
+                <p>
+                  Snap a few photos, list your items, and watch as interested
+                  buyers come knocking. Turn your pre-loved belongings into cash
+                  effortlessly while simplifying your move.
+                </p>
+                <p>
+                  Say goodbye to the stress of packing unnecessary items and
+                  hello to a smoother transition. Sell with ease and make your
+                  relocation journey a breeze!
+                </p>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="relative lg:mx-[152px] mt-10">
+        <h3
+          class="text-[22px] lg:text-[50px] text-center lg:text-black mb-11 lg:mb-9 font-Righteous"
+        >
+          Moving into a new apartment?
+        </h3>
+        <div
+          class="mx-auto px-16 lg:px-[19vw] rounded-[20px] before:content-[' '] relative before:w-full before:h-1/2 before:bottom-0 before:left-0 before:absolute before:block before:bg-[#F9F8F8]"
+        >
+          <img
+            src="public/new-apartment.png"
+            alt=""
+            class="w-full rounded-[20px] relative"
+          />
+        </div>
+        <div
+          class="bg-[#F9F8F8] px-[22px] space-y-4 md:space-y-0 lg:px-[20vw] text-sm pb-10 lg:pb-20 pt-[30px] lg:text-2xl"
+        >
+          <p>
+            Discover the simplicity of furnishing your new apartment with our
+            app. Browse through a wide selection of quality used items, from
+            furniture to decor, all at affordable prices.
+          </p>
+          <p>
+            With just a few taps, you can find the perfect pieces to complement
+            your space and style. Say goodbye to the hassle of shopping around
+            and hello to effortless apartment furnishing.
+          </p>
+          <p>Start decorating today with ease and savings!</p>
+        </div>
+      </section>
+      <section
+        id="about-us"
+        class="px-[22px] bg-white pt-9 lg:pt-16 pb-28 lg:pb-[182px] lg:py-5 space-y-4 lg:space-y-8 lg:px-64 text-sm lg:text-2xl"
+      >
+        <h3
+          class="text-[22px] lg:text-[50px] text-center lg:text-black font-Righteous"
+        >
+          About Us
+        </h3>
+        <p>
+          Welcome to our ecommerce app, your one-stop destination for all your
+          shopping needs. With a vast selection of products ranging from fashion
+          and electronics to home decor and more, we aim to provide you with a
+          seamless shopping experience.
+        </p>
+        <p>
+          Our user-friendly interface and secure payment options ensure
+          hassle-free transactions every time. Whether you're browsing for the
+          latest trends or searching for everyday essentials, our curated
+          collections cater to every taste and budget.
+        </p>
+        <p>
+          At our app, customer satisfaction is our priority, and our dedicated
+          team is committed to delivering exceptional service. Shop with
+          confidence and convenience, knowing that we're here to make your
+          shopping journey enjoyable and rewarding. Join us today and elevate
+          your online shopping experience with our ecommerce platform.
+        </p>
+      </section>
+      <!-- About us section ends -->
+      <!-- contact us section begins  -->
+      <section
+        id="contact-us"
+        class="bg-customBlue py-8 lg:py-40 lg:px-[130px] flex flex-col lg:flex-row-reverse gap-3 lg:gap-0"
+      >
+        <h4 class="mx-[53px] text-white mb-2 lg:hidden font-Righteous">
+          Have an inquiry or <br />
+          complaint? contact US
+        </h4>
+        <div
+          class="mx-[53px] lg:mx-0 lg:px-16 bg-white pt-8 pb-11 px-8 rounded-[20px] space-y-4 lg:pt-[86px] lg:pb-24 flex-1"
+        >
+          <input
+            type="text"
+            placeholder="Your name"
+            class="w-full rounded-[10px] h-10 border border-solid border-black px-4"
+          />
+          <input
+            type="email"
+            placeholder="Your email"
+            class="w-full rounded-[10px] h-10 border border-solid border-black px-4"
+          />
+          <textarea
+            placeholder="Your message"
+            class="w-full rounded-[10px] h-[90px] border border-solid border-black px-4 py-7"
+          ></textarea>
+          <button
+            class="w-full rounded-[10px] h-10 bg-customBlue px-4 text-white"
+          >
+            Send message
+          </button>
+        </div>
+        <div
+          class="mx-4 lg:mx-0 lg:px-16 bg-[#D9D9D920] px-8 pt-5 lg:pt-7 pb-6 rounded-[20px] lg:rounded-r-0 space-y-2 flex-1"
+        >
+          <h4
+            class="mx-[53px] lg:mx-0 text-white mb-5 hidden lg:block font-Righteous lg:text-[30px] xl:text-[40px]"
+          >
+            Have an inquiry or <br />
+            complaint? contact US
+          </h4>
+          <a
+            class="flex h-[53px] p-4 gap-4 bg-[#D9D9D9] rounded-[10px] text-[#686868] items-center"
+            href=""
+            ><svg
+              width="31"
+              height="24"
+              viewBox="0 0 31 24"
+              fill="none"
+              class="w-6"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M30.9154 3.5013C30.9154 1.94297 29.5279 0.667969 27.832 0.667969H3.16536C1.46953 0.667969 0.0820312 1.94297 0.0820312 3.5013V20.5013C0.0820312 22.0596 1.46953 23.3346 3.16536 23.3346H27.832C29.5279 23.3346 30.9154 22.0596 30.9154 20.5013V3.5013ZM27.832 3.5013L15.4987 10.5846L3.16536 3.5013H27.832ZM27.832 20.5013H3.16536V6.33464L15.4987 13.418L27.832 6.33464V20.5013Z"
+                fill="#686868"
+              />
+            </svg>
+            <p>Support@getlootapp.com</p>
+          </a>
+          <a
+            class="flex h-[53px] p-4 gap-4 bg-[#D9D9D9] rounded-[10px] text-[#686868] items-center"
+            href=""
+            ><svg
+              width="21"
+              height="22"
+              viewBox="0 0 21 22"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19.5684 5.95C18.7067 9.42828 16.957 12.603 14.5027 15.142C12.0483 17.6811 8.97936 19.491 5.61703 20.3825C3.02999 21.0638 0.832031 18.7625 0.832031 16V14.75C0.832031 14.06 1.37457 13.5063 2.03795 13.4375C3.13816 13.3253 4.21814 13.0565 5.24728 12.6388L7.08395 14.5388C10.0745 13.0558 12.486 10.5611 13.9195 7.4675L12.0828 5.5675C12.4871 4.50293 12.7473 3.38571 12.8562 2.2475C12.9214 1.56 13.4567 1 14.1237 1H15.332C18.0024 1 20.227 3.27375 19.5684 5.95Z"
+                stroke="#686868"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <p>+234 70 62466 019</p>
+          </a>
+          <a
+            class="grid grid-flow-col p-4 gap-4 bg-[#D9D9D9] rounded-[10px] text-[#686868] items-center justify-start"
+            href=""
+            ><svg
+              width="23"
+              height="24"
+              viewBox="0 0 23 24"
+              fill="none"
+              class=""
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M5.36328 10.25C5.36328 8.83275 6.00969 7.47355 7.1603 6.4714C8.31092 5.46925 9.87148 4.90625 11.4987 4.90625C13.1259 4.90625 14.6865 5.46925 15.8371 6.4714C16.9877 7.47355 17.6341 8.83275 17.6341 10.25C17.6341 11.6673 16.9877 13.0265 15.8371 14.0286C14.6865 15.0307 13.1259 15.5938 11.4987 15.5938C9.87148 15.5938 8.31092 15.0307 7.1603 14.0286C6.00969 13.0265 5.36328 11.6673 5.36328 10.25ZM11.4987 6.59375C10.3853 6.59375 9.31758 6.97896 8.53032 7.66464C7.74306 8.35032 7.30078 9.2803 7.30078 10.25C7.30078 11.2197 7.74306 12.1497 8.53032 12.8354C9.31758 13.521 10.3853 13.9062 11.4987 13.9062C12.6121 13.9062 13.6798 13.521 14.4671 12.8354C15.2543 12.1497 15.6966 11.2197 15.6966 10.25C15.6966 9.2803 15.2543 8.35032 14.4671 7.66464C13.6798 6.97896 12.6121 6.59375 11.4987 6.59375Z"
+                fill="#686868"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0.550773 8.96413C0.771553 6.63178 1.99127 4.45703 3.96777 2.87166C5.94426 1.28629 8.53297 0.406243 11.2199 0.40625H11.7779C14.4649 0.406243 17.0536 1.28629 19.0301 2.87166C21.0066 4.45703 22.2263 6.63178 22.4471 8.96413C22.6928 11.5621 21.7713 14.1417 19.8767 16.1596L13.6857 22.7533C13.4208 23.0354 13.0872 23.2628 12.709 23.419C12.3308 23.5751 11.9175 23.6561 11.4989 23.6561C11.0804 23.6561 10.6671 23.5751 10.2889 23.419C9.91072 23.2628 9.5771 23.0354 9.31215 22.7533L3.12119 16.1596C1.22647 14.1417 0.30495 11.5621 0.550773 8.96413ZM11.2199 2.09375C9.01956 2.09404 6.89975 2.81491 5.28127 4.11326C3.66279 5.41161 2.66399 7.19253 2.48311 9.1025C2.27851 11.2646 3.04535 13.4115 4.62211 15.0909L10.8131 21.6856C10.8963 21.7743 11.0011 21.8458 11.12 21.8949C11.2388 21.944 11.3687 21.9695 11.5002 21.9695C11.6318 21.9695 11.7617 21.944 11.8805 21.8949C11.9993 21.8458 12.1042 21.7743 12.1874 21.6856L18.3784 15.0909C19.9542 13.4111 20.7201 11.2643 20.5148 9.1025C20.3339 7.19233 19.3349 5.41126 17.7161 4.11288C16.0974 2.8145 13.9772 2.09376 11.7766 2.09375H11.2199Z"
+                fill="#686868"
+              />
+            </svg>
+            <p>
+              9B folton apartments, jerry nwakobi street, Eti osa, lekki lagos.
+            </p>
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer class="text-center pb-[33px] bg-white lg:pt-[105px] lg:px-[184px]">
+      <div
+        class="bg-customRed pt-[38px] px-[52px] flex flex-col lg:flex-row lg:px-24 justify-between bg-[url('public/mobile-bg.svg')] lg:bg-[url('public/bg.svg')]"
+      >
+        <span class="lg:w-[31vw] flex-1">
+          <h3
+            class="text-[22px] text-white md:text-3xl xl:text-4xl 2xl:text-6xl mb-14 lg:mt-[101px] text-center lg:text-left font-Righteous"
+          >
+            Download loot app
+          </h3>
+          <span
+            class="flex gap-3 justify-center items-center lg:w-[29vw] max-w-96 mx-auto lg:max-w-none lg:mx-0"
+          >
+            <a class="w-[390px]"
+              ><img
+                src="public/play-store.png"
+                alt="link to Loot app on play store"
+              />
+            </a>
+            <a class="w-[390px]"
+              ><img
+                src="public/app-store.png"
+                alt="link to Loot app on app store"
+            /></a> </span
+        ></span>
+        <img src="public/Iphoe.png" alt="" class="mx-auto mt-10 lg:w-[429px]" />
+      </div>
+      <span
+        class="bg-customRed rounded-[20px] mb-5 mt-10 flex items-center size-[69px] justify-center mx-auto"
+      >
+        <img src="public/image 422.png" alt="" class="size-10" />
+      </span>
+      <p class="text-xs mb-[30px] font-Righteous">Loot technologies limited</p>
+      <span class="flex items-center gap-4 justify-center mb-5">
+        <svg
+          width="20"
+          height="20"
+          viewBox="0 0 20 20"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M8.66926 6.937V8.314H7.66406V9.997H8.66926V15H10.7355V9.997H12.1216C12.1216 9.997 12.2523 9.19 12.3151 8.307H10.7435V7.157C10.7435 6.984 10.9689 6.753 11.1922 6.753H12.3171V5H10.7864C8.6184 5 8.66926 6.685 8.66926 6.937Z"
+            fill="#878180"
+          />
+          <path
+            d="M9.96831 18C12.0841 18 14.1133 17.1571 15.6095 15.6569C17.1056 14.1566 17.9461 12.1217 17.9461 10C17.9461 7.87827 17.1056 5.84344 15.6095 4.34315C14.1133 2.84285 12.0841 2 9.96831 2C7.85247 2 5.8233 2.84285 4.32717 4.34315C2.83105 5.84344 1.99054 7.87827 1.99054 10C1.99054 12.1217 2.83105 14.1566 4.32717 15.6569C5.8233 17.1571 7.85247 18 9.96831 18ZM9.96831 20C4.46066 20 -0.00390625 15.523 -0.00390625 10C-0.00390625 4.477 4.46066 0 9.96831 0C15.476 0 19.9405 4.477 19.9405 10C19.9405 15.523 15.476 20 9.96831 20Z"
+            fill="#878180"
+          />
+        </svg>
+        <svg
+          width="19"
+          height="19"
+          viewBox="0 0 19 19"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M14.4578 5.62109C15.0774 5.62109 15.5797 5.11741 15.5797 4.49609C15.5797 3.87477 15.0774 3.37109 14.4578 3.37109C13.8382 3.37109 13.3359 3.87477 13.3359 4.49609C13.3359 5.11741 13.8382 5.62109 14.4578 5.62109Z"
+            fill="#534B49"
+            fill-opacity="0.7"
+          />
+          <path
+            d="M9.46475 4.6875C8.51527 4.6875 7.5871 4.96984 6.79763 5.49882C6.00816 6.02779 5.39285 6.77965 5.0295 7.6593C4.66614 8.53895 4.57107 9.5069 4.75631 10.4407C4.94154 11.3746 5.39877 12.2324 6.07015 12.9056C6.74154 13.5789 7.59694 14.0374 8.52818 14.2231C9.45943 14.4089 10.4247 14.3135 11.3019 13.9492C12.1791 13.5848 12.9289 12.9678 13.4564 12.1761C13.9839 11.3844 14.2654 10.4537 14.2654 9.50156C14.2654 8.22479 13.7597 7.00032 12.8594 6.09751C11.959 5.19469 10.738 4.6875 9.46475 4.6875ZM9.46475 12.6266C8.8484 12.6266 8.24589 12.4433 7.73342 12.0999C7.22094 11.7565 6.82152 11.2685 6.58565 10.6974C6.34978 10.1264 6.28807 9.4981 6.40831 8.8919C6.52856 8.28571 6.82536 7.72889 7.26118 7.29185C7.69701 6.85481 8.25228 6.55719 8.85679 6.43661C9.4613 6.31603 10.0879 6.37791 10.6573 6.61444C11.2267 6.85096 11.7134 7.2515 12.0559 7.76541C12.3983 8.27931 12.5811 8.8835 12.5811 9.50156C12.5811 10.3304 12.2527 11.1252 11.6683 11.7113C11.0839 12.2973 10.2913 12.6266 9.46475 12.6266Z"
+            fill="#534B49"
+            fill-opacity="0.7"
+          />
+          <path
+            d="M9.46614 1.81406C11.9623 1.81406 12.2584 1.82344 13.2439 1.86875C13.8367 1.87581 14.4238 1.98495 14.9797 2.19141C15.383 2.34742 15.7493 2.58636 16.0549 2.89287C16.3606 3.19939 16.5989 3.56667 16.7544 3.97109C16.9603 4.52854 17.0692 5.11731 17.0762 5.71172C17.1214 6.7 17.1307 6.99687 17.1307 9.50078C17.1307 12.0047 17.1214 12.3 17.0762 13.2883C17.0692 13.8827 16.9603 14.4715 16.7544 15.0289C16.5989 15.4333 16.3606 15.8006 16.0549 16.1071C15.7493 16.4136 15.383 16.6526 14.9797 16.8086C14.4238 17.0151 13.8367 17.1242 13.2439 17.1313C12.2584 17.1766 11.9623 17.1859 9.46614 17.1859C6.96997 17.1859 6.67392 17.1766 5.68839 17.1313C5.09563 17.1242 4.50849 17.0151 3.9526 16.8086C3.5493 16.6526 3.18303 16.4136 2.87737 16.1071C2.57171 15.8006 2.33343 15.4333 2.17785 15.0289C1.97197 14.4715 1.86313 13.8827 1.85609 13.2883C1.81091 12.3 1.80156 12.0031 1.80156 9.5C1.80156 6.99687 1.81091 6.7 1.85609 5.71172C1.86313 5.11731 1.97197 4.52854 2.17785 3.97109C2.33343 3.56667 2.57171 3.19939 2.87737 2.89287C3.18303 2.58636 3.5493 2.34742 3.9526 2.19141C4.50849 1.98495 5.09563 1.87581 5.68839 1.86875C6.67392 1.82344 6.96997 1.81406 9.46614 1.81406ZM9.46614 0.125C6.92712 0.125 6.60848 0.135938 5.61126 0.18125C4.8359 0.19695 4.0688 0.344351 3.34258 0.617188C2.72144 0.858045 2.15733 1.22639 1.68642 1.69861C1.21552 2.17083 0.848196 2.7365 0.608008 3.35938C0.335843 4.08787 0.18885 4.85737 0.173281 5.63516C0.128095 6.63516 0.117188 6.95312 0.117188 9.5C0.117188 12.0469 0.128095 12.3656 0.173281 13.3656C0.188938 14.1431 0.335929 14.9124 0.608008 15.6406C0.848196 16.2635 1.21552 16.8292 1.68642 17.3014C2.15733 17.7736 2.72144 18.142 3.34258 18.3828C4.06905 18.6557 4.83641 18.8031 5.61204 18.8188C6.60926 18.8641 6.92712 18.875 9.46614 18.875C12.0052 18.875 12.3238 18.8641 13.321 18.8188C14.0967 18.8031 14.864 18.6557 15.5905 18.3828C16.2116 18.142 16.7757 17.7736 17.2466 17.3014C17.7176 16.8292 18.0849 16.2635 18.3251 15.6406C18.597 14.9121 18.7437 14.1426 18.759 13.3648C18.8042 12.3648 18.8151 12.0469 18.8151 9.5C18.8151 6.95312 18.8042 6.63438 18.759 5.63438C18.7433 4.85685 18.5964 4.08762 18.3243 3.35938C18.0841 2.7365 17.7168 2.17083 17.2459 1.69861C16.775 1.22639 16.2109 0.858045 15.5897 0.617188C14.8632 0.344531 14.0958 0.197393 13.3203 0.182031C12.323 0.135156 12.0059 0.125 9.46614 0.125Z"
+            fill="#534B49"
+            fill-opacity="0.7"
+          />
+        </svg>
+        <svg
+          width="23"
+          height="25"
+          viewBox="0 0 23 25"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M2.39453 19.1163C3.31884 19.7165 10.009 24.2435 14.7666 20.7543C19.5238 17.2651 19.2612 11.2537 19.2612 8.49857C19.6924 7.43882 20.6029 6.89994 20.6029 4.0312C19.7087 5.00095 18.8199 5.33057 17.9363 5.0212C17.0709 3.47207 15.8802 2.78638 14.3636 2.96526C12.0895 3.23357 11.2577 5.85257 11.5025 9.24163C7.99599 11.3229 5.24653 7.73245 3.82916 5.0212C3.35574 7.15645 2.89957 9.72032 3.82916 12.5559C4.4492 14.447 5.93989 16.0451 8.30026 17.3518C5.90778 18.8733 3.93936 19.4623 2.39453 19.1163Z"
+            stroke="#534B49"
+            stroke-opacity="0.7"
+            stroke-width="4"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </span>
+      <p class="text-[#9E9E9E] text-xs">© 2024, All rights reserved</p>
+    </footer>
+  </body>
+  <script type="module" src="index.js"></script>
+</html>
